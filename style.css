@@ -92,5 +92,59 @@ body {
     bottom: 0;
     margin-left: 25%;
     width: 50%;
+    border-top: none;
     border-bottom: 1.5px solid rgba(128, 128, 128, 0.499);
+}
+
+.plan {
+    display: flex;
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.plan-option {
+    box-sizing: content-box;
+    width: 800px;
+    height: 300px;
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 20px 20px 40px gray;
+    border-radius: 5px;
+}
+
+.plan-option p {
+    color: rgba(128, 128, 128, 0.763);
+}
+
+#food {
+    background-color: rgba(222, 184, 135, 0.437);
+}
+
+#med {
+    background-color: rgba(205, 92, 92, 0.322);
+}
+
+#shelter {
+    background-color: rgba(135, 206, 250, 0.378);
+}
+
+footer {
+    margin-top: 10%;
+    height: 210px;
+    background-color: rgb(1, 30, 30);
+    text-align: center;
+}
+
+footer h2 {
+    padding-top: 3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 40px;
+    color: crimson;
+}
+
+footer h3 {
+    color: aliceblue;
 }
