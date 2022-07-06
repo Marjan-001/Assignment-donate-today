@@ -45,7 +45,7 @@ body {
 
 .second-heading {
     padding-top: 5%;
-    padding-left: 40%;
+    padding-left: 35%;
     text-align: justify;
     position: absolute;
 }
@@ -57,6 +57,8 @@ body {
 
 .second-heading p {
     margin-left: -50%;
+    padding-left: 40%;
+    justify-content: center;
     font-size: 20px;
     text-align: center;
 }
@@ -84,15 +86,26 @@ body {
     border: 1px solid orangered;
 }
 
-#input-amount {
-    color: rgba(128, 128, 128, 0.608);
-    font-weight: lighter;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    margin-left: 25%;
-    width: 50%;
-    border-bottom: 1.5px solid rgba(128, 128, 128, 0.499);
+input[type=number] {
+    display: flex;
+    padding: 10px 120px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin: 8px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(145, 143, 143);
+    margin-bottom: 30px;
+}
+
+.other-amount {
+    padding-left: 35%;
+    padding-right: 30%;
+}
+
+.other-amount a {
+    margin-left: 15%;
 }
 
 .plan {
@@ -183,6 +196,34 @@ body {
     font-size: 20px;
     font-weight: 700;
     border-radius: 6px;
+}
+
+.get-update h1 {
+    padding-top: 5%;
+    font-size: 50px;
+    text-align: center;
+}
+
+#mail {
+    margin-left: 35%;
+    padding: 20px 50px;
+    background-color: rgba(128, 128, 128, 0.347);
+    border-top: 1px solid rgb(145, 143, 143);
+    border-bottom: 1px solid rgb(145, 143, 143);
+    border-left: 1px solid rgb(145, 143, 143);
+    border-right: 1px solid rgb(145, 143, 143);
+    border-radius: 5px;
+}
+
+#subs {
+    padding: 20px 50px;
+    color: antiquewhite;
+    background-color: red;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-radius: 5px;
 }
 
 footer {
