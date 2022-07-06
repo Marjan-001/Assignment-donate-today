@@ -92,7 +92,6 @@ body {
     bottom: 0;
     margin-left: 25%;
     width: 50%;
-    border-top: none;
     border-bottom: 1.5px solid rgba(128, 128, 128, 0.499);
 }
 
@@ -128,6 +127,62 @@ body {
 
 #shelter {
     background-color: rgba(135, 206, 250, 0.378);
+}
+
+.register {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.half-width {
+    padding-top: 10%;
+    padding-left: 5%;
+    width: 50%;
+}
+
+.half-width h1 {
+    transform: translate(0%, -45%);
+    text-align: center;
+    padding-right: 20%;
+    font-size: 60px;
+    color: aliceblue;
+}
+
+#join {
+    margin-top: 200px;
+    background-image: linear-gradient(orange, tomato);
+    height: 200px;
+    width: 50%
+}
+
+#register {
+    margin-top: 200px;
+    background-color: bisque;
+    height: 200px;
+    width: 50%
+}
+
+#register h2 {
+    margin-top: -20%;
+    margin-bottom: 20%;
+}
+
+#register p {
+    margin-top: -10%;
+    margin-bottom: 20%;
+    text-align: justify;
+}
+
+.res-button {
+    text-decoration: none;
+    position: relative;
+    top: -55px;
+    background-image: linear-gradient(orange, orangered);
+    padding: 20px 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 6px;
 }
 
 footer {
